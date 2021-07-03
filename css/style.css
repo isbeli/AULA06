@@ -1,0 +1,86 @@
+body header {
+background-color: beige;
+}
+footer{
+    background-color: aquamarine
+}
+#section1{
+    background-color:red;
+}
+#section1 .articles1{
+    display: inline-block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    background-color: rgb(184, 184, 173);
+}
+
+#section2{
+    background-color:orange;
+}
+#section2 .articles2{
+    display: inline-block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    background-color: rgb(184, 184, 173);
+}
+
+#section3 {
+    background-color: blue;
+
+}
+
+#section3 aside{
+
+}
+.menuhorizontal2{
+margin: 0;
+padding: 0;
+width: auto;
+height: 30px;
+}
+.menuhorizontal2 ul{
+list-style: none;
+}
+.menuhorizontal2 li{
+width: 80px;
+padding:0px;
+margin: 0;
+position: relative;
+display: inline;
+float: left;
+border-left: #999999 thin solid;
+}
+.menuhorizontal2 li ul{
+display: none;
+padding: 0;
+margin: 0;
+position: absolute;
+top: 35px;
+left: 0;
+}
+
+/*nível inferior do menu com display: none*/
+
+.menuhorizontal2 a{
+display: block;
+text-decoration: none;
+padding: 7px;
+background-color: #CCCCCC;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: 400;
+}
+
+/* formatação da âncora e área clicável*/
+
+.menuhorizontal2 li:hover ul, li.over ul{
+display: block;
+}
+
+/*mostra nível inferior ao passar o cursor*/
+
+.menuhorizontal2 li.btnesquerdo{
+border: none;
+}
